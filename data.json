@@ -1,0 +1,12 @@
+[
+  {
+    "amount": 1500,
+    "type": "income",
+    "category": "Starting Balance"
+  },
+  {
+    "amount": 45,
+    "type": "expense",
+    "category": "Gas Station"
+  }
+]
