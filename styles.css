@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 500px;
+  width: 100%;
+  margin: 40px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input, select, button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+input, select {
+  flex: 1;
+}
+
+button {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #45a049;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+h3 {
+  margin: 5px 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* TRANSACTIONS */
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  background: #fafafa;
+  border-left: 6px solid gray;
+}
+
+.income {
+  border-left-color: green;
+  color: green;
+}
+
+.expense {
+  border-left-color: red;
+  color: red;
+}
+
+li button {
+  background: red;
+  padding: 5px 8px;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+li button:hover {
+  background: darkred;
+}
