@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Budget Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<div class="container">
+  <h1>💰 Budget Tracker</h1>
+
+  <div class="input-group">
+    <input id="amount" type="number" placeholder="Amount">
+    <select id="type">
+      <option value="income">Income</option>
+      <option value="expense">Expense</option>
+    </select>
+    <input id="category" type="text" placeholder="Category">
+    <button id="addBtn">Add</button>
+  </div>
+
+  <h2>Balance: $<span id="balance">0</span></h2>
+
+  <h3>Income: $<span id="income">0</span></h3>
+  <h3>Expenses: $<span id="expenses">0</span></h3>
+
+  <button onclick="clearAll()">Clear All</button>
+
+  <ul id="transactionList"></ul>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
+
+
